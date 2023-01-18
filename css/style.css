@@ -5,6 +5,10 @@
 /* SITENAV */
 .sitenav-list {
   list-style: none;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 500px;
+  font-size: 13px;
+  line-height: 15.23px;
 }
 .nav_link {
   text-decoration: none;
@@ -17,6 +21,8 @@
 }
 /* Buttons */
 .button-link {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 700px;
   text-decoration: none;
   background-color: #FF7500;
   font-size: 18px;
@@ -42,21 +48,27 @@
   background-color: #ff7500;
 }
 .hero-heading {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 700px;
+  line-height: 45px;
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: 0.5px;
 }
 .hero-text {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
 /* FEATURES */
 .features-heading {
- width: 440px;
- font-size: 72px;
- line-height: 1.2;
- letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
 }
 .feature {
   width: 340px;
@@ -69,13 +81,17 @@
 
 }
 .features-headline {
- font-size: 24px;
- line-height: 1.5;
- letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }
 .features-text {
- font-size: 16px;
- font-weight: 400;
+  font-family: "Roboto", "Arial", sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
 }
 /* AKSIYA */
 .promo {
@@ -86,10 +102,14 @@
   width: 440px;
 }
 .promo-heading {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 700;
   font-size: 40px;
   line-height: 48px;
 }
 .promo-text {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -105,7 +125,7 @@
 .site-footer {
   background-color: #f8f8f8;
 }
-/* SITE FOOTER LINKS AND LISTS */
+/* SITE FOOTER LINKS AND LISTS  */
 .site-footer ul {
   list-style: none;
 }
@@ -115,7 +135,10 @@
   height: 2px;
 }
 .site-footer-links {
-  width: 224px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 
 }
 .site-footer-links a {
