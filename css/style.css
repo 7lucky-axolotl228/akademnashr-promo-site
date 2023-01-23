@@ -13,8 +13,11 @@ body {
 /* SITE HEADER */
 .site-header {
   display: flex;
+  border-top: 5px solid #FF7500;
   justify-content: space-between;
   align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
   background-color: #fff;
 }
 
@@ -38,6 +41,7 @@ body {
 .sitenav-list {
   display: flex;
   list-style: none;
+  padding: 0;
   font-weight: 500px;
   font-size: 13px;
   line-height: 15.23px;
@@ -64,8 +68,11 @@ body {
 
 /* Buttons */
 .button-link {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
   font-family: "Roboto", "Arial", sans-serif;
-  font-weight: 700px;
+  font-weight: bold;
   text-decoration: none;
   background-color: #FF7500;
   font-size: 18px;
@@ -88,6 +95,8 @@ body {
 .hero {
   display: flex;
   align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
   justify-content: space-around;
   background-color: #252420;
   color: white;
@@ -97,12 +106,14 @@ body {
   width: 390px;
 }
 .hero-img {
+  border-radius: 8px;
   width: 510px;
   height: 510px;
 }
 .orange-hr {
   width: 80px;
   height: 3px;
+  border: none;
   background-color: #ff7500;
 }
 .hero-heading {
@@ -114,6 +125,11 @@ body {
 }
 
 /* FEATURES */
+.features {
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
+
 .features-heading {
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-weight: 700;
@@ -124,6 +140,7 @@ body {
 .features-list {
   display: flex;
   justify-content: space-between;
+  padding: 0;
   list-style: none;
 }
 .feature {
@@ -131,8 +148,12 @@ body {
   height: 245px;
 }
 .features-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
+  border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
 }
 .features-headline {
@@ -145,6 +166,7 @@ body {
 .promo {
   display: flex;
   align-items: center;
+  border-radius: 12px;
   justify-content: space-around;
   background-color: #252420;
   color: #fff;
@@ -162,12 +184,15 @@ body {
   color: #ff7500 ;
 }
 .promo-img {
+  border-radius: 12px;
   width: 440px;
   height: 440px;
   object-fit: cover;
 }
 /* SITE FOOtER */
 .site-footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #f8f8f8;
 }
 .site-footer-top {
@@ -177,10 +202,12 @@ body {
 }
 /* SITE FOOTER LINKS AND LISTS  */
 .site-footer ul {
+  padding: 0;
   list-style: none;
 }
 .site-footer-socials {
   display: flex;
+  padding: 0;
   align-items: center;
 }
 
@@ -196,6 +223,7 @@ body {
   background-color: rgba(37, 36, 32, 0.5);
   width: 1100px;
   height: 2px;
+  border: none
 }
 .site-footer-bottom {
   display: flex;
