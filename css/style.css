@@ -1,4 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   line-height: 1.5;
   font-family: "Roboto", "Arial", sans-serif;
@@ -10,15 +16,28 @@ body {
   outline-offset: 2.7px;
 }
 
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* SITE HEADER */
 .site-header {
-  display: flex;
-  border-top: 5px solid #FF7500;
-  justify-content: space-between;
-  align-items: center;
   padding-top: 16px;
   padding-bottom: 16px;
+  border-top: 5px solid #FF7500;
   background-color: #fff;
+}
+
+.site-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo-link {
@@ -68,7 +87,7 @@ body {
   text-transform: uppercase;
   color: #222;
   transition: color 0.4s ease,
-    opacity 0.3s ease;
+  opacity 0.3s ease;
 }
 
 .nav_link:hover {
@@ -102,24 +121,28 @@ body {
   opacity: 0.6;
 }
 
-        /* MAIN */
+/* MAIN */
 
 /* HERO */
 .hero {
-  display: flex;
-  align-items: center;
   padding-top: 80px;
   padding-bottom: 80px;
-  justify-content: space-around;
   background-color: #252420;
   color: white;
-
 }
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .hero-content {
   width: 390px;
 }
 .hero-img {
   border-radius: 8px;
+  box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
   width: 510px;
   height: 510px;
 }
@@ -186,23 +209,36 @@ body {
   align-items: center;
   width: 100px;
   height: 100px;
+  margin-bottom: 32px;
   border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
 }
 
 .features-headline {
-  font-family: "Roboto Condensed", "Arial", sans-serif;
+  margin-top: 0;
+  margin-bottom: 12px;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.5;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+}
+
+.feature-text {
+  margin: 0;
 }
 
 /* AKSIYA */
 .promo {
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+
+.promo-inner {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 64px;
   border-radius: 12px;
-  justify-content: space-around;
   background-color: #252420;
   color: #fff;
 }
@@ -259,7 +295,7 @@ body {
   padding: 0;
   list-style: none;
 }
-      /* IMG Block */
+/* IMG Block */
 .site-footer-socials {
   display: flex;
   padding: 0;
@@ -321,11 +357,19 @@ body {
   margin-right: 0;
 }
 
+.site-footer-links li {
+  margin-bottom: 16px;
+}
+
+.site-footer-links li:last-child {
+  margin-bottom: 0;
+}
+
 .site-footer-links a {
   text-decoration: none;
   color: #252420;
   transition: color 0.4s ease,
-    opacity 0.4s ease;
+  opacity 0.4s ease;
 }
 
 .site-footer-links a:hover {

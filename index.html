@@ -16,22 +16,22 @@
 <body>
   <!-- SiTE_HEADER -->
   <header class="site-header">
-    <a class="logo-link" href="index.html">
-      <img src="img/Akademnashr.svg" alt="akademnashr logo rasmi" width="227" height="60">
-    </a>
-
-    <div class="site-header-actions">
-      <!-- SITENAV -->
-      <nav>
-        <ul class="sitenav-list">
-          <li class="sitenav-item"><a class="nav_link" href="#">Bosh sahifa</a></li>
-          <li class="sitenav-item"><a class="nav_link" href="#">Kitoblar</a></li>
-          <li class="sitenav-item"><a class="nav_link" href="#">Aksiyalar</a></li>
-          <li class="sitenav-item"><a class="nav_link" href="#">Kontaktlar</a></li>
-        </ul>
-      </nav>
-
-      <a class="button-link" href="#">Royxatdan otish</a>
+    <div class="site-header-container container">
+      <a class="logo-link" href="index.html">
+        <img src="img/Akademnashr.svg" alt="akademnashr logo rasmi" width="227" height="60">
+      </a>
+      <div class="site-header-actions">
+        <!-- SITENAV -->
+        <nav>
+          <ul class="sitenav-list">
+            <li class="sitenav-item"><a class="nav_link" href="#">Bosh sahifa</a></li>
+            <li class="sitenav-item"><a class="nav_link" href="#">Kitoblar</a></li>
+            <li class="sitenav-item"><a class="nav_link" href="#">Aksiyalar</a></li>
+            <li class="sitenav-item"><a class="nav_link" href="#">Kontaktlar</a></li>
+          </ul>
+        </nav>
+        <a class="button-link" href="#">Royxatdan otish</a>
+      </div>
     </div>
   </header>
 
@@ -40,54 +40,61 @@
     <section>
       <!-- HERO -->
       <section class="hero">
-        <div class="hero-content">
-          <hr class="orange-hr">
-          <h2 class="hero-heading">Pythonda dasturlash <br> asoslari</h2>
-          <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, aliquid. Fuga enim perferendis deleniti quo et impedit, sunt laudantium ipsam sequi odit, harum modi, inventore reprehenderit labore eaque ab natus voluptatem. Temporibus voluptatum voluptatem accusantium voluptate sapiente alias illum! Optio amet necessitatibus aspernatur, aperiam asperiores excepturi impedit laboriosam corrupti beatae!
-          </p>
-          <a class="button-link" href="#">Buyurtma berish</a>
+        <div class="hero-container container">
+          <div class="hero-content">
+            <hr class="orange-hr">
+            <h2 class="hero-heading">Pythonda dasturlash <br> asoslari</h2>
+            <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, aliquid. Fuga enim perferendis deleniti quo et impedit, sunt laudantium ipsam sequi odit, harum modi, inventore reprehenderit labore eaque ab natus voluptatem. Temporibus voluptatum voluptatem accusantium voluptate sapiente alias illum! Optio amet necessitatibus aspernatur, aperiam asperiores excepturi impedit laboriosam corrupti beatae!
+            </p>
+            <a class="button-link" href="#">Buyurtma berish</a>
+          </div>
+          <img class="hero-img" src="img/python-book.jpg" alt="pytohn kitob rasmi" width="510" height="510" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
         </div>
-
-        <img class="hero-img" src="img/python-book.jpg" alt="pytohn kitob rasmi" width="510" height="510" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
       </section>
 
       <!-- FEATURES -->
       <div>
         <section class="features">
-          <hr class="orange-hr">
-          <h2 class="features-heading">Nega aynan <br> Akademnashr?</h2>
-          <ul class="features-list">
-            <li class="feature">
-              <div class="features-icon"><img src="img/icon-kursor.svg" alt="" width="56" height="56"></div>
-              <h3 class="features-headline">Oson Buyurtma qilish</h3>
-              <p class="features-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nihil.</p>
-            </li>
-            <li class="feature">
-              <div class="features-icon"><img src="img/icon-yulduz-1.svg" alt="" width="56" height="56"></div>
-              <h3 class="features-headline">Eng sara kitoblar</h3>
-              <p class="features-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nihil.</p>
-            </li>
-            <li class="feature">
-              <div class="features-icon"><img src="img/icon-light-2.svg" alt="" width="5" height="56"></div>
-              <h3 class="features-headline">Tez yetkazib berish</h3>
-              <p class="features-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-          </ul>
+          <div class="container">
+            <hr class="orange-hr">
+            <h2 class="features-heading">Nega aynan <br> Akademnashr?</h2>
+
+            <ul class="features-list">
+              <li class="feature">
+                <div class="features-icon"><img src="img/icon-kursor.svg" alt="" width="56" height="56"></div>
+                <h3 class="features-headline">Oson Buyurtma qilish</h3>
+                <p class="features-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nihil.</p>
+              </li>
+              <li class="feature">
+                <div class="features-icon"><img src="img/icon-yulduz-1.svg" alt="" width="56" height="56"></div>
+                <h3 class="features-headline">Eng sara kitoblar</h3>
+                <p class="features-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nihil.</p>
+              </li>
+              <li class="feature">
+                <div class="features-icon"><img src="img/icon-light-2.svg" alt="" width="5" height="56"></div>
+                <h3 class="features-headline">Tez yetkazib berish</h3>
+                <p class="features-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </li>
+            </ul>
+          </div>
         </section>
       </div>
       <!-- Aksiya -->
 
       <section class="promo">
-        <div class="promo-content">
-          <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
-          <div class="promo-text-wrapper">
-            <p class="promo-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos minus itaque explicabo sed numquam eaque cupiditate commodi unde, totam quam quas maiores reprehenderit molestiae quo. Saepe!</p>
-            <p class="promo-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil <strong class="promo-highlight">eos error</strong> enim tempora <strong class="promo-highlight">rerum doloribus numquam </strong>unde fugit? Et culpa laudantium ipsam fugiat voluptatum hic.</p>
+        <div class="container">
+          <div class="promo-inner">
+            <div class="promo-content">
+              <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
+              <div class="promo-text-wrapper">
+                <p class="promo-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos minus itaque explicabo sed numquam eaque cupiditate commodi unde, totam quam quas maiores reprehenderit molestiae quo. Saepe!</p>
+                <p class="promo-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil <strong class="promo-highlight">eos error</strong> enim tempora <strong class="promo-highlight">rerum doloribus numquam </strong>unde fugit? Et culpa laudantium ipsam fugiat voluptatum hic.</p>
+              </div>
+              <a class="button-link" href="#">Buyurtma berish</a>
+            </div>
+            <img class="promo-img" src="img/sale-img.png" alt="aksiya kitob" width="400" height="400" srcset="img/sale-img.png 1x, img/sale-img@2x.png 2x">
           </div>
-          <a class="button-link" href="#">Buyurtma berish</a>
         </div>
-
-        <img class="promo-img" src="img/sale-img.png" alt="aksiya kitob" width="400" height="400" srcset="img/sale-img.png 1x, img/sale-img@2x.png 2x">
       </section>
     </section>
   </main>
@@ -95,6 +102,7 @@
 
   <!-- Site Footer -->
   <footer class="site-footer">
+    <div class="container">
       <div class="site-footer-top">
         <a class="" href="">
           <img src="img/Akademnashr.svg" alt="akademnashr logo rasmi" width="227" height="60">
@@ -135,6 +143,7 @@
           <li><a href="">Maxfiylik nizomi</a></li>
         </ul>
       </div>
+    </div>
   </footer>
 
 </body>
