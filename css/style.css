@@ -426,6 +426,15 @@ body {
     margin-right: 5%;
   }
 
+  .promo {
+    padding-top: 30px;
+  }
+
+  .promo-img {
+    width: 390px;
+    height: 390px;
+  }
+
   .site-footer__links {
     width: 20.36%;
     margin-right: 6.18%;
@@ -451,8 +460,47 @@ body {
     padding-top: 150px;
     padding-bottom: 150px;
   }
+
+  .promo-content {
+    margin-right: 35px;
+  }
+
+  .promo-img {
+    position: static;
+  }
 }
 
+@media only screen and (max-width: 930px) {
+  .promo-inner {
+    align-items: flex-start;
+  }
+
+  .promo-heading {
+    font-size: 36px;
+  }
+
+  .promo-img {
+    width: 320px;
+    height: 320px;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .promo-inner {
+    flex-direction: column;
+  }
+
+  .promo-content {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .promo-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+}
 
 @media only screen and (max-width: 800px) {
   .hero-heading {
@@ -484,6 +532,14 @@ body {
     text-align: center;
   }
 
+  .hero-text {
+    font-size: 18px;
+  }
+
+  .hero-heading {
+    font-size: 40px;
+  }
+
   .hero-img {
     margin-bottom: 35px;
     margin-right: 0;
@@ -495,7 +551,17 @@ body {
 
   .features-heading {
     margin-bottom: 54px;
-    font-size: 64px;
+    font-size: 56px;
+  }
+
+  .promo {
+    padding-bottom: 30px;
+  }
+
+  .promo-inner {
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 0;
   }
 
   .site-footer__bottom {
@@ -540,6 +606,15 @@ body {
   .features-icon {
     margin-bottom: 16px;
   }
+
+  .promo {
+    padding-top: 0;
+  }
+
+  .promo-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 
@@ -558,6 +633,13 @@ body {
 
 
 @media only screen and (max-width: 530px) {
+  .hero-text {
+    font-size: 16px;
+  }
+
+  .hero-heading {
+    font-size: 36px;
+  }
   .orange-hr {
     margin-left: auto;
     margin-right: auto;
@@ -607,12 +689,25 @@ body {
   .hero-text {
     font-size: 13px;
   }
+  .hero-heading {
+    font-size: 30px;
+  }
+
   .features {
     padding-top: 70px;
     padding-bottom: 70px;
   }
   .features-text {
     margin-top: 10px;
+  }
+
+  .promo-heading {
+    font-size: 32px;
+  }
+
+  .promo-img {
+    width: 100%;
+    height: 300px;
   }
 
   .site-footer__links {
